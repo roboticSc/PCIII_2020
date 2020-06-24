@@ -156,6 +156,7 @@ def harm_niv(n):
 
 # %%
 #Länge der Lininen im Morse-Potential
+#Es wird jeweils für gegebenen Energie E die x-Achsenpostion r berechnet
 def r_morse_minus(E):
     return r0 - np.log(np.sqrt(E)+1)/a
 def r_morse_plus(E):
